@@ -5,6 +5,7 @@ sudo echo "选择安装系统："
 echo "  14.04 请输入 1"
 echo "  16.04 请输入 2"
 echo "  18.04 请输入 3"
+echo "  20.04 请输入 4"
 echo "*********************************"
 read SystemIndex
 
@@ -18,7 +19,9 @@ if [ -z $SystemIndex ];then
    elif [ $index -eq 2 ];then
        System=16.04   
    elif [ $index -eq 3 ];then  
-       System=18.04 
+       System=18.04
+   elif [ $index -eq 4];then
+       System=20.04
     fi
 fi
 
