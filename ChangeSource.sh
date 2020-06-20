@@ -58,7 +58,7 @@ sudo apt-get -f install
 sudo apt-get install git
 echo "安装完成"
 echo "开始下载库文件..."
-git clone https://github.com/quanweiGithub/Ubuntu-China-Source
+git clone https://github.com/GuancongLuo/Ubuntu-China-Source
 cd Ubuntu-China-Source
 ls
 echo "备份原链接..."
