@@ -43,13 +43,13 @@ if [ -z $SystemIndex ];then
        Source=ali
    elif [ $index -eq 2 ];then
 	echo 222
-       Source=qinghua   
+       Source=tsinghua   
    elif [ $index -eq 3 ];then  
        Source=163 
     fi
 fi
 echo $Source
-filename="source_${Source}_ubuntu${System}.list"
+filename="${Source}/source_${Source}_ubuntu${System}.list"
 
 #下载安装git
 echo "开始下载安装git..."
